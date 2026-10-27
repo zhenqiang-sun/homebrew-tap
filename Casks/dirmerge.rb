@@ -1,6 +1,6 @@
 cask "dirmerge" do
-  version "2.0.4"
-  sha256 "a3926eb443eb3e0559275cd41195cc57eb8929ac25e2928c33c6a2ec1d44ae14"
+  version "2.1.0"
+  sha256 "ce6a81b5ccf6ae185848134eedd92e213f6720d4514ad8f5857954f130e54e37"
 
   url "https://dirmerge.com/DirMerge.dmg"
   name "DirMerge"
@@ -16,6 +16,7 @@ cask "dirmerge" do
   depends_on macos: :ventura
 
   app "DirMerge.app"
+  binary "#{appdir}/DirMerge.app/Contents/Resources/dirmerge"
 
   zap trash: [
     "~/Library/Application Scripts/com.dirmerge.desktop",
