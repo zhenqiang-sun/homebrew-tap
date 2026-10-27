@@ -6,6 +6,7 @@ Personal Homebrew Tap for [zhenqiang-sun](https://github.com/zhenqiang-sun).
 
 | Cask | Description | Install Command |
 | :--- | :--- | :--- |
+| **dirmerge** | Safe macOS folder merge utility with APFS zero-space cloning & one-click undo | `brew install --cask zhenqiang-sun/tap/dirmerge` |
 | **macdeck** | Native macOS multi-display window restorer, Apple Silicon system dossier & developer environment toolkit | `brew install --cask zhenqiang-sun/tap/macdeck` |
 
 ---
@@ -15,6 +16,10 @@ Personal Homebrew Tap for [zhenqiang-sun](https://github.com/zhenqiang-sun).
 ### Direct One-Line Installation
 
 ```bash
+# Install DirMerge
+brew install --cask zhenqiang-sun/tap/dirmerge
+
+# Install MacDeck
 brew install --cask zhenqiang-sun/tap/macdeck
 ```
 
@@ -22,19 +27,19 @@ brew install --cask zhenqiang-sun/tap/macdeck
 
 ```bash
 brew tap zhenqiang-sun/tap
-brew install --cask macdeck
+brew install --cask dirmerge
 ```
 
 ### Upgrade
 
 ```bash
-brew upgrade --cask macdeck
+brew upgrade --cask dirmerge
 ```
 
 ### Uninstall
 
 ```bash
-brew uninstall --cask macdeck
+brew uninstall --cask dirmerge
 ```
 
 ---
